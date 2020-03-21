@@ -29,14 +29,15 @@
   },
   "homepage": "https://github.com/alejajessi/protactor--workshop-2020#readme",
   "dependencies": {
-    "jasmine-spec-reporter": "^4.2.1",
-    "protractor": "^5.4.3",
-    "tslint": "^6.1.0",
-    "tslint-config-airbnb": "^5.11.2"
+
   },
   "devDependencies": {
     "@types/jasminewd2": "^2.0.8",
     "@types/node": "^13.9.2",
-    "typescript": "^3.8.3"
+    "typescript": "^3.8.3",
+    "jasmine-spec-reporter": "^4.2.1",
+    "protractor": "^5.4.3",
+    "tslint": "^6.1.0",
+    "tslint-config-airbnb": "^5.11.2"
   }
 }
