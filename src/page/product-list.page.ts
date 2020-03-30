@@ -7,7 +7,7 @@ export class ProductListPage {
     this.selectTShirt = $('#center_column a.button.ajax_add_to_cart_button.btn.btn-default');
   }
 
-  public async selectClothes_TShirt(): Promise<void> {
+  public async selectClothesTShirt(): Promise<void> {
     await this.selectTShirt.click();
   }
 }

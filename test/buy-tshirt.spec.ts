@@ -29,7 +29,7 @@ describe('Buy a t-shirt', () => {
     await(browser.sleep(30000));
     await menuContentPage.goToTShirtMenu();
     await(browser.sleep(3000));
-    await productListPage.selectClothes_TShirt();
+    await productListPage.selectClothesTShirt();
     await(browser.sleep(3000));
     await producAddedModalPage.addCarProcess();
     await(browser.sleep(3000));
