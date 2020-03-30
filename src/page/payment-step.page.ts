@@ -7,7 +7,7 @@ export class PaymentStepPage {
     this.checkOutButton = $('#HOOK_PAYMENT > div:nth-child(1) > div > p > a');
   }
 
-  public async checkOuttoFiniishPay(): Promise<void> {
+  public async checkOutOnFinishPay(): Promise<void> {
     await this.checkOutButton.click();
   }
 }

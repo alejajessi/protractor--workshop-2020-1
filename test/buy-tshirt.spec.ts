@@ -49,11 +49,11 @@ describe('Buy a t-shirt', () => {
 
     await shippingStepPage.continueToPay();
     await(browser.sleep(3000));
-    await paymentStepPage.checkOuttoFiniishPay();
+    await paymentStepPage.checkOutOnFinishPay();
     await(browser.sleep(3000));
     await bankPaymentPage.checkOuttoFinish();
     await(browser.sleep(3000));
 
-    await orderSummaryPage.summaryOrder(textConfirmation);
+    await expect(orderSummaryPage.summaryOrder()).toBe(textConfirmation);
   });
 });
